@@ -1,9 +1,11 @@
 function hngTask2() {
-	fullName ='Wissal Mellal';
-	ID ='HNG-00270';
-	ScriptLng = 'Javascript';
-  Email = ' wissmellal@gmail.com';
+	var fullName ='Wissal Mellal';
+	var id ='HNG-00270';
+	var scriptLng = 'Javascript';
+    var email = ' wissmellal@gmail.com';
 	
-			console.log("Hello World, this is "+ fullName +" with HNGi7 ID "+ID + " using " + ScriptLng + " for stage 2 task." + Email+".");
-}
+			console.log("Hello World, this is "+ fullName +" with HNGi7 ID "+ id + " using " + scriptLng + " for stage 2 task." + email+".");
+
+			//output: "Hello World, this is Wissal Mellal with HNGi7 ID HNG-00270 using Javascript for stage 2 task. wissmellal@gmail.com."
+      }
 hngTask2();
